@@ -1,0 +1,38 @@
+[
+	{
+		"Name": "John Doe",
+		"Date of birth": "01/13/1945",
+		"Phone number": "+1234567890",
+		"Email": "johndoe@yahoo.com",
+		"Password": "abc123",
+		"City": "Silcon valley",
+		"Country": "USA",
+		"Street": "123 facebook ave.",
+		"State": "CA",
+		"Zip code": "12345",
+		"Picture": "C:\\Users\\John\\Desktop\\myPic.jpg",
+		"Answers": {
+			"1": "Bill Gates",
+			"2": "Introduction to programming",
+			"3": "CA elementary school"
+		}
+	},
+	{
+		"Name": "Mary Jane",
+		"Date of birth": "11/22/1973",
+		"Phone number": "+0987654321",
+		"Email": "maryjane@gmail.com",
+		"Password": "1234aaa",
+		"City": "Seattle",
+		"Country": "USA",
+		"Street": "456 microsoft ave.",
+		"State": "WA",
+		"Zip code": "99999",
+		"Picture": "C:\\Users\\Mary\\Documents\\myPic.jpg",
+		"Answers": {
+			"1": "Bill Gates",
+			"2": "Simplified Data structures",
+			"3": "Seattle elementary school"
+		}
+	}
+]

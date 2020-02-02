@@ -1,0 +1,130 @@
+body {
+	padding: 0;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+svg {
+	color: #999;
+	margin-right: 5px;
+}
+.hero-cover {
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	bottom: 0; 
+	left: 0;
+	right: 0; 
+	background-color: #88b04b;
+	z-index: 1000;
+	opacity: 0.35;
+}
+.content {
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ccc;
+}
+.signup {
+	text-align: center;
+}
+.footer {
+  height: 100px;
+  background-color: #d5f4e6;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-txt {
+  margin:0;
+  align-self: center;
+}
+a.no-dec:hover {
+	text-decoration: none;
+}
+a.close-btn:hover {
+	color: #888;	
+}
+a.close-btn {
+	font-size: 1em;	
+	color: #bbb;
+	position:absolute; 
+	right:15px;
+	top: 15px;
+}
+a.nav-link {
+	color: #333;
+}
+.text-grey {
+	color: #777;
+}
+.col-center {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.row-center {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.col-sp-bn {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.row-sp-bn {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.description {
+	 display:grid;
+	 grid-template-columns: 1fr 4fr;
+	 padding-left: 30px;
+}
+div.description > :nth-child(odd) {
+	font-weight: bold;
+}
+
+input.form-control:disabled {
+	background-color: transparent;
+	border:none;
+	transition: unset;
+}
+input.form-control {
+	transition: unset;
+}
+.sidebar.nav-link.feather {
+  margin-right: 4px;
+  color: #999;
+}
+div.invalid-feedback.login-msg {
+	display: block;
+}
+input.form-control.answers {
+	background-color: #ddeedd;
+	border-color: #92a8d1;
+}
+.error-page {
+	width: 100vw;
+	height: 100vh;
+	color:#f66;
+	background-color:#fed;
+	text-align:center;
+}
+div.dropdown-menu.show-dropdown {
+	display: inline;
+	left: auto;
+}
+div.dropdown-menu.hide-dropdown {
+	display: none;
+	left: auto;
+}
